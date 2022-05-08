@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e01f117e.css",
+    "main.js": "/static/js/main.d686dfcd.js",
+    "react-vendor.js": "/static/js/react-vendor.86e980a1.js",
+    "index.html": "/index.html",
+    "main.e01f117e.css.map": "/static/css/main.e01f117e.css.map",
+    "main.d686dfcd.js.map": "/static/js/main.d686dfcd.js.map",
+    "react-vendor.86e980a1.js.map": "/static/js/react-vendor.86e980a1.js.map"
+  },
+  "entrypoints": [
+    "static/js/react-vendor.86e980a1.js",
+    "static/css/main.e01f117e.css",
+    "static/js/main.d686dfcd.js"
+  ]
+}
