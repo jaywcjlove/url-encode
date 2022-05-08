@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useState } from 'react';
+import GitHubCorners from '@uiw/react-github-corners';
 import '@wcj/dark-mode';
 import styles from './index.module.less';
 
 export default function App() {
-  const [type, setType] = useState('decoder');
+  const [type, setType] = useState('encoder');
   const [handler, setHandler] = useState('');
   const [coder, setCoder] = useState('');
 
@@ -25,6 +26,10 @@ export default function App() {
   }
   return (
     <div className={styles.warpper}>
+      <GitHubCorners
+        size={52}
+        href="https://github.com/jaywcjlove/url-encode"
+      />
       <header>
         <div>URL Decoder/Encoder</div>
         <div className={styles.type}>
