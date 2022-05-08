@@ -6,9 +6,7 @@
   "description": "URL Decoder/Encoder",
   "scripts": {
     "start": "kkt start",
-    "build": "kkt build",
-    "test": "kkt test --env=jsdom",
-    "coverage": "kkt test --env=jsdom --coverage --bail"
+    "build": "kkt build"
   },
   "repository": {
     "type": "git",
