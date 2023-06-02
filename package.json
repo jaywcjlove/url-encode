@@ -26,7 +26,7 @@
     "@kkt/less-modules": "~7.1.1",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.3",
-    "kkt": "~7.1.5"
+    "kkt": "~7.5.0"
   },
   "eslintConfig": {
     "extends": [
